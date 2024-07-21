@@ -213,10 +213,13 @@ git push origin 远程分支名:本地分支名
 git pull origin 远程分支名:本地分支名
 ```
 
+<<<<<<< HEAD
 - **git fetch**
 
 从远程仓库获取最新的更新，区别是fetch只获取，不改变本地仓库的任何内容。
 
+=======
+>>>>>>> 2651014a9b3459d04175d339f6bc517959b90ca0
 - **git remote**
 
 关联远程仓库
@@ -378,6 +381,7 @@ ssh-keygen -t rsa -C "邮箱"
 
 ![image-20240522185639935](https://shenyunmomie.oss-cn-beijing.aliyuncs.com/imags/202405221856722.png)
 
+<<<<<<< HEAD
 ## 远程仓库的操作命令
 
 - git remote
@@ -414,6 +418,9 @@ git push -u [远程仓库名] [本地分支名] # 本地分支指定一个默认
 git push --force [远程仓库名] [本地分支名] # 强行推送
 git push --all [远程仓库名] # 推送所有分支到远程仓库
 ```
+=======
+
+>>>>>>> 2651014a9b3459d04175d339f6bc517959b90ca0
 
 # git进阶
 
